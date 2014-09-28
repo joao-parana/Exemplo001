@@ -14,6 +14,8 @@ class ViewController: UIViewController {
   
   @IBOutlet weak var name: UITextField!
   
+  @IBOutlet weak var image: UIImageView!
+    
   @IBAction func buttonTaped(sender: AnyObject) {
     println("Oi Mundo")
     myLabel.text = name.text.uppercaseString
