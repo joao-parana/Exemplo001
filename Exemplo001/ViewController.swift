@@ -12,10 +12,13 @@ class ViewController: UIViewController {
 
   @IBOutlet weak var myLabel: UILabel!
   
-  override func viewDidLoad() {
-    super.viewDidLoad()
+  @IBAction func buttonTaped(sender: AnyObject) {
     println("Oi Mundo")
     myLabel.text = "Funcionou"
+  }
+  
+  override func viewDidLoad() {
+    super.viewDidLoad()
   }
 
   override func didReceiveMemoryWarning() {
