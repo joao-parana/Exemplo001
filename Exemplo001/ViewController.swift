@@ -12,9 +12,12 @@ class ViewController: UIViewController {
 
   @IBOutlet weak var myLabel: UILabel!
   
+  @IBOutlet weak var name: UITextField!
+  
   @IBAction func buttonTaped(sender: AnyObject) {
     println("Oi Mundo")
-    myLabel.text = "Funcionou"
+    myLabel.text = name.text.uppercaseString
+    
   }
   
   override func viewDidLoad() {
