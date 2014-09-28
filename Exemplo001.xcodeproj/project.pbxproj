@@ -63,7 +63,9 @@
 				09BBD53219D78CB800F1D09A /* Exemplo001Tests */,
 				09BBD51B19D78CB800F1D09A /* Products */,
 			);
+			indentWidth = 2;
 			sourceTree = "<group>";
+			tabWidth = 2;
 		};
 		09BBD51B19D78CB800F1D09A /* Products */ = {
 			isa = PBXGroup;
