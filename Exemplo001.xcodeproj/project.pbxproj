@@ -39,6 +39,7 @@
 		09BBD53419D78CB800F1D09A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		09BBD53519D78CB800F1D09A /* Exemplo001Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exemplo001Tests.swift; sourceTree = "<group>"; };
 		09BBD53F19D79C7400F1D09A /* gatinho_index.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = gatinho_index.gif; sourceTree = "<group>"; };
+		09FEBE3019DD874D0024821C /* WWDC2014-introdução.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "WWDC2014-introdução.playground"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +63,7 @@
 		09BBD51119D78CB800F1D09A = {
 			isa = PBXGroup;
 			children = (
+				09FEBE3019DD874D0024821C /* WWDC2014-introdução.playground */,
 				092DC11019D7A5A500447F35 /* MyPlayground.playground */,
 				09BBD51C19D78CB800F1D09A /* Exemplo001 */,
 				09BBD53219D78CB800F1D09A /* Exemplo001Tests */,
