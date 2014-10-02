@@ -8,6 +8,12 @@
 
 import UIKit
 
+// @infix func ^ (num: Double, power: Double) -> Double {
+//   return pow(num, power)
+// }
+
+// println(2.0 ^ 3.0) // display 8.0
+
 class ViewController: UIViewController {
 
   @IBOutlet weak var myLabel: UILabel!
