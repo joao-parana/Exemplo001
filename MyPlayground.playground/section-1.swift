@@ -508,6 +508,26 @@ let jim = Person()
 
 jim.highFive() // "I was high fived!"
 
+/*
+
+Remember, you need to create a directory called "Shared Playground Data" in your Documents directory. Im my case I used this command: mkdir "/Users/joao_parana/Documents/Shared Playground Data" and put there my file README.md
+
+*/
+
+let dirs : [String]? =    NSSearchPathForDirectoriesInDomains(NSSearchPathDirectory.DocumentDirectory, NSSearchPathDomainMask.UserDomainMask, true) as? [String]
+let myDir = "/Shared Playground Data"
+
+let file = "README.md" // My change to your code - yours is presumably set off-screen
+if (dirs != nil) {
+  let directories:[String] = dirs!;
+  let dir = directories[0] + myDir; // playground documents directory
+  let path = dir.stringByAppendingPathComponent(file);
+  
+  //read
+  let content = String.stringWithContentsOfFile(path, encoding: NSUTF8StringEncoding, error: nil)
+  // works...
+  println(content!)
+}
 
 
 
